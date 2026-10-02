@@ -1,95 +1,70 @@
 # Batuhan Parıltı
 
-**Computer Engineering Student · Software Developer**  
-**Bilgisayar Mühendisliği Öğrencisi · Yazılım Geliştirici**
+Computer Engineering Student · Software Developer
 
-[Portfolio / ArtifactHub](https://artifact-hub-xi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/baglare/) · [GitHub](https://github.com/Baglare)
+[Portfolio](https://artifact-hub-xi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/baglare/) · [GitHub](https://github.com/Baglare)
 
----
+I build software projects around developer tooling, AI infrastructure, local-first applications, game systems, localization engineering, audio and computer vision.
 
-## EN
+Most of my projects start as focused prototypes, but I try to take the interesting ones further: clearer architecture, validation, testing, release workflows and documentation.
 
-I build software projects across developer tooling, AI infrastructure, local-first products, desktop applications, game systems, localization engineering, audio, and computer vision.
+## Selected Projects
 
-My focus is not only on making software work. I also document architecture decisions, system boundaries, technical trade-offs, validation strategies, limitations, and release considerations.
+### [GameLocalizer](https://artifact-hub-xi.vercel.app/artifacts/gamelocalizer)
 
-I use AI tools as controlled development support for planning, implementation, debugging, refactoring, documentation, and testing. Project scope, architecture, integration, verification, and final technical decisions remain under my control.
+Python developer tool for game localization workflows.
 
-The full technical archive, including private-source projects and detailed engineering notes, is available through **ArtifactHub**.
+Format-aware extraction and apply pipelines, structural QA, translation memory, deterministic context, Unity localization support and reversible patch packaging.
 
----
+### [KnowledgeCompiler](https://artifact-hub-xi.vercel.app/artifacts/knowledgecompiler)
 
-## TR
+Deterministic, provider-neutral infrastructure for AI-assisted project workflows.
 
-Geliştirici araçları, AI altyapısı, local-first ürünler, masaüstü uygulamalar, oyun sistemleri, yerelleştirme mühendisliği, ses ve bilgisayarlı görü alanlarında yazılım projeleri geliştiriyorum.
+Built around structured authority, context compilation, task/result contracts, transactional updates and controlled automation.
 
-Odak noktam yalnızca çalışan yazılım üretmek değil; mimari kararları, sistem sınırlarını, teknik trade-off'ları, doğrulama yöntemlerini, kısıtları ve release sürecini de açık biçimde belgelemek.
+### [MediaTracker](https://github.com/Baglare/MediaTracker)
 
-Yapay zekâ araçlarını planlama, geliştirme, hata ayıklama, refactor, dokümantasyon ve test süreçlerinde kontrollü bir geliştirme aracı olarak kullanıyorum. Proje kapsamı, mimari kararlar, entegrasyon, doğrulama ve son teknik kararlar bana ait.
+Local-first media tracking application that grew into a larger full-stack product.
 
-Private kaynak kodlu projeler dahil daha ayrıntılı teknik proje arşivi **ArtifactHub** üzerinde yer alıyor.
+Includes optional cloud sync, data-integrity workflows, deterministic recommendation logic, grounded research and release hardening.
 
----
+### [PoD Localization Engineering](https://github.com/Baglare/PoD-Localization-Engineering)
 
-## Featured Projects / Öne Çıkan Projeler
+Public engineering case study derived from a real Turkish localization project distributed through Steam Workshop.
 
-| Project | Focus | Stack |
-|---|---|---|
-| [ArtifactHub](https://artifact-hub-xi.vercel.app/) | Technical portfolio archive documenting architecture, scope, trade-offs and project evolution. / Mimari, kapsam, teknik kararlar ve proje gelişimini belgeleyen merkezi portfolyo arşivi. | Next.js, TypeScript, Tailwind CSS |
-| **GameLocalizer** · [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts) | Safe game-localization pipelines with structural QA, translation memory, format-aware processing, Unity support and reversible patch workflows. / Yapısal QA, translation memory, format farkındalığı, Unity desteği ve geri alınabilir patch akışlarına sahip oyun yerelleştirme aracı. | Python |
-| **KnowledgeCompiler** · [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts) | Deterministic AI governance and project-knowledge infrastructure with contracts, context compilation and transactional operations. / Sözleşmeler, context derleme ve transaction-safe işlemler üzerine kurulu deterministik AI yönetişimi altyapısı. | Python |
-| [MediaTracker](https://github.com/Baglare/MediaTracker) | Local-first media product with controlled cloud sync, recommendation systems, grounded research and release hardening. / Kontrollü cloud sync, öneri sistemleri, grounded research ve release hardening içeren local-first medya ürünü. | Next.js, React, TypeScript, Supabase |
-| [PoD Localization Engineering](https://github.com/Baglare/PoD-Localization-Engineering) | Public engineering case study for deterministic localization processing, structural QA and release verification using synthetic fixtures. / Sentetik verilerle deterministik yerelleştirme, yapısal QA ve release doğrulamasını gösteren mühendislik vaka çalışması. | Python |
-| [PulseForge](https://github.com/Baglare/PulseForge) | Unity rhythm-combat system with custom-song import, FFmpeg conversion and runtime beatmap generation. / Özel şarkı import'u, FFmpeg dönüşümü ve runtime beatmap üretimi kullanan Unity ritim-combat sistemi. | Unity, C#, Python |
+Demonstrates protected syntax handling, structural QA, deterministic packaging and release verification using synthetic data.
 
----
+### [PulseForge](https://github.com/Baglare/PulseForge)
 
-## Current / Experimental Work
+Unity rhythm-combat prototype with runtime custom-song import.
 
-**Aria AI** — Early-stage Windows-first desktop AI architecture prototype built around React/Tauri, a local FastAPI core, SSE streaming, persistence, Ollama integration and secure credential boundaries.
+Uses FFmpeg conversion, runtime beat analysis and generated Guard/Strike beatmaps to connect arbitrary music to gameplay.
 
-**OpenAI Image Studio** — Small single-user Next.js tool for image generation/editing with a server-side provider boundary, local history and usage/cost reporting.
+## Other Work
 
-Both projects are documented in more detail on [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts).
+- [TempoBlade](https://github.com/Baglare/TempoBlade) — Unity combat systems, parry/deflect mechanics and data-driven progression.
+- [VoxForge](https://github.com/Baglare/VoxForge) — Local TTS, voice profiles and experimental fine-tuning/evaluation workflows.
+- [VisionForge](https://github.com/Baglare/VisionForge) — Computer-vision interaction using face/hand detection and gesture-driven UI.
+- [Aria AI](https://artifact-hub-xi.vercel.app/artifacts/aria-ai) — Early-stage desktop AI architecture prototype using Tauri, React and FastAPI.
+- [OpenAI Image Studio](https://artifact-hub-xi.vercel.app/artifacts/openai-image-studio) — Small Next.js image generation/editing tool with local history and usage tracking.
 
----
+## Technical Interests
 
-## Additional Systems & Prototypes
+`Python` · `TypeScript` · `Next.js` · `React` · `C#` · `Unity` · `FastAPI` · `Tauri`
 
-- [TempoBlade](https://github.com/Baglare/TempoBlade) — Unity combat architecture, parry/deflect systems and data-driven roguelite progression.
-- [VoxForge](https://github.com/Baglare/VoxForge) — Local TTS, voice profiles, preprocessing and experimental fine-tuning/evaluation workflows.
-- [VisionForge](https://github.com/Baglare/VisionForge) — Local computer-vision interaction using face/hand detection, recognition and gesture-driven UI.
+Developer tooling · Local-first systems · AI infrastructure · Game systems · Localization · Release engineering
 
 ---
 
-## Technical Focus / Teknik Odaklar
+<details>
+<summary><strong>Türkçe</strong></summary>
 
-- Developer tooling and deterministic pipelines
-- AI systems, provider boundaries and controlled automation
-- Local-first application architecture and data integrity
-- Validation, QA and release engineering
-- Desktop application architecture
-- Unity gameplay and interaction systems
-- Localization engineering
-- Audio, TTS and computer vision experimentation
+Bilgisayar Mühendisliği öğrencisiyim.
 
----
+Geliştirici araçları, AI altyapısı, local-first uygulamalar, oyun sistemleri, yerelleştirme mühendisliği, ses ve bilgisayarlı görü alanlarında projeler geliştiriyorum.
 
-## Engineering Approach / Çalışma Yaklaşımı
+Projelerde yalnızca çalışan bir çıktı üretmek yerine mimariyi, veri akışını, doğrulama yöntemlerini ve projenin sınırlarını da netleştirmeye çalışıyorum.
 
-I prefer projects with explicit scope and system boundaries over feature accumulation.
+Projelerin daha ayrıntılı teknik açıklamaları için [ArtifactHub](https://artifact-hub-xi.vercel.app/) kullanılabilir.
 
-I try to separate:
-
-- implemented behavior from planned work,
-- prototypes from release-ready systems,
-- deterministic logic from provider-dependent behavior,
-- public evidence from private or sensitive project data.
-
-The goal is to build software that I can explain technically: why the architecture exists, what trade-offs were made, what was validated, and what remains incomplete.
-
-Projelerde özellik sayısını artırmaktan çok kapsamı ve sistem sınırlarını net tutmayı tercih ediyorum.
-
-Uygulanmış özellikleri planlanan işlerden, prototipleri release seviyesindeki sistemlerden, deterministik mantığı provider bağımlı davranışlardan ve public kanıtı private proje verisinden ayırmaya çalışıyorum.
-
-Amaç yalnızca çalışan proje üretmek değil; mimarinin neden böyle kurulduğunu, hangi teknik kararların verildiğini, neyin doğrulandığını ve hangi sınırların hâlâ mevcut olduğunu açıklayabilmek.
+</details>
