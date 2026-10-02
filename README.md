@@ -1,7 +1,7 @@
 # Batuhan Parıltı
 
-**Computer Engineering Student · AI-assisted Software Developer**  
-**Bilgisayar Mühendisliği Öğrencisi · Yapay Zeka Destekli Yazılım Geliştirici**
+**Computer Engineering Student · Software Developer**  
+**Bilgisayar Mühendisliği Öğrencisi · Yazılım Geliştirici**
 
 [Portfolio / ArtifactHub](https://artifact-hub-xi.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/baglare/) · [GitHub](https://github.com/Baglare)
 
@@ -9,21 +9,25 @@
 
 ## EN
 
-I build portfolio-grade software prototypes around Unity gameplay systems, local-first web applications, audio/voice tooling, and computer vision interaction.
+I build software projects across developer tooling, AI infrastructure, local-first products, desktop applications, game systems, localization engineering, audio, and computer vision.
 
-My focus is not only making things work, but also documenting scope, architecture decisions, technical trade-offs, limitations, and future improvement points clearly.
+My focus is not only on making software work. I also document architecture decisions, system boundaries, technical trade-offs, validation strategies, limitations, and release considerations.
 
-I use AI tools as development support for planning, debugging, refactoring, documentation passes, and test ideas. Project scope, architecture decisions, integration, verification, and final review stay under my control.
+I use AI tools as controlled development support for planning, implementation, debugging, refactoring, documentation, and testing. Project scope, architecture, integration, verification, and final technical decisions remain under my control.
+
+The full technical archive, including private-source projects and detailed engineering notes, is available through **ArtifactHub**.
 
 ---
 
 ## TR
 
-Unity oyun sistemleri, local-first web uygulamaları, ses/TTS araçları ve bilgisayarlı görü etkileşim prototipleri üzerine portfolyo seviyesinde yazılım projeleri geliştiriyorum.
+Geliştirici araçları, AI altyapısı, local-first ürünler, masaüstü uygulamalar, oyun sistemleri, yerelleştirme mühendisliği, ses ve bilgisayarlı görü alanlarında yazılım projeleri geliştiriyorum.
 
-Odak noktam yalnızca çalışan çıktı üretmek değil; kapsamı, mimari kararları, teknik tercihleri, sınırları ve geliştirilebilir noktaları da açık şekilde belgelemek.
+Odak noktam yalnızca çalışan yazılım üretmek değil; mimari kararları, sistem sınırlarını, teknik trade-off'ları, doğrulama yöntemlerini, kısıtları ve release sürecini de açık biçimde belgelemek.
 
-Yapay zekâ araçlarını planlama, hata ayıklama, refactor, dokümantasyon ve test fikri üretme süreçlerinde destek aracı olarak kullanıyorum. Proje kapsamı, mimari kararlar, entegrasyon, doğrulama ve son kontrol bana ait.
+Yapay zekâ araçlarını planlama, geliştirme, hata ayıklama, refactor, dokümantasyon ve test süreçlerinde kontrollü bir geliştirme aracı olarak kullanıyorum. Proje kapsamı, mimari kararlar, entegrasyon, doğrulama ve son teknik kararlar bana ait.
+
+Private kaynak kodlu projeler dahil daha ayrıntılı teknik proje arşivi **ArtifactHub** üzerinde yer alıyor.
 
 ---
 
@@ -31,27 +35,61 @@ Yapay zekâ araçlarını planlama, hata ayıklama, refactor, dokümantasyon ve 
 
 | Project | Focus | Stack |
 |---|---|---|
-| [ArtifactHub](https://artifact-hub-xi.vercel.app/) | Central technical archive for my project artifacts. / Projelerimi teknik artifact mantığıyla toplayan merkezi portfolyo arşivi. | Next.js, TypeScript, Tailwind CSS |
-| [TempoBlade](https://github.com/Baglare/TempoBlade) | 2D/top-down roguelite combat prototype with tempo-based combat, parry/deflect logic, room flow, and progression systems. / Tempo odaklı combat, parry/deflect, oda akışı ve progression sistemleri içeren 2D/top-down roguelite prototipi. | Unity, C# |
-| [MediaTracker](https://github.com/Baglare/MediaTracker) | Local-first media tracking app with optional cloud sync and AI-assisted recommendation flow. / Opsiyonel bulut senkronizasyonu ve AI destekli öneri akışı olan local-first medya takip uygulaması. | Next.js, React, TypeScript |
-| [PulseForge](https://github.com/Baglare/PulseForge) | Audio-to-beatmap pipeline connected to a Unity rhythm-combat prototype. / Ses dosyasından beatmap üreten ve Unity ritim-combat prototipine bağlanan pipeline. | Python, Unity, C# |
-| [VoxForge](https://github.com/Baglare/VoxForge) | Local TTS and voice profile lab with preprocessing, quality checks, and experimental generation flows. / Ön işleme, kalite kontrol ve deneysel üretim akışları içeren yerel TTS ve voice profile laboratuvarı. | Python, Gradio, XTTS |
-| [VisionForge](https://github.com/Baglare/VisionForge) | Camera-to-interaction prototype using face/hand detection and gesture-based UI flows. / Yüz/el algılama ve gesture tabanlı UI akışlarını kullanan kamera-etkileşim prototipi. | Python, OpenCV, MediaPipe |
+| [ArtifactHub](https://artifact-hub-xi.vercel.app/) | Technical portfolio archive documenting architecture, scope, trade-offs and project evolution. / Mimari, kapsam, teknik kararlar ve proje gelişimini belgeleyen merkezi portfolyo arşivi. | Next.js, TypeScript, Tailwind CSS |
+| **GameLocalizer** · [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts) | Safe game-localization pipelines with structural QA, translation memory, format-aware processing, Unity support and reversible patch workflows. / Yapısal QA, translation memory, format farkındalığı, Unity desteği ve geri alınabilir patch akışlarına sahip oyun yerelleştirme aracı. | Python |
+| **KnowledgeCompiler** · [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts) | Deterministic AI governance and project-knowledge infrastructure with contracts, context compilation and transactional operations. / Sözleşmeler, context derleme ve transaction-safe işlemler üzerine kurulu deterministik AI yönetişimi altyapısı. | Python |
+| [MediaTracker](https://github.com/Baglare/MediaTracker) | Local-first media product with controlled cloud sync, recommendation systems, grounded research and release hardening. / Kontrollü cloud sync, öneri sistemleri, grounded research ve release hardening içeren local-first medya ürünü. | Next.js, React, TypeScript, Supabase |
+| [PoD Localization Engineering](https://github.com/Baglare/PoD-Localization-Engineering) | Public engineering case study for deterministic localization processing, structural QA and release verification using synthetic fixtures. / Sentetik verilerle deterministik yerelleştirme, yapısal QA ve release doğrulamasını gösteren mühendislik vaka çalışması. | Python |
+| [PulseForge](https://github.com/Baglare/PulseForge) | Unity rhythm-combat system with custom-song import, FFmpeg conversion and runtime beatmap generation. / Özel şarkı import'u, FFmpeg dönüşümü ve runtime beatmap üretimi kullanan Unity ritim-combat sistemi. | Unity, C#, Python |
+
+---
+
+## Current / Experimental Work
+
+**Aria AI** — Early-stage Windows-first desktop AI architecture prototype built around React/Tauri, a local FastAPI core, SSE streaming, persistence, Ollama integration and secure credential boundaries.
+
+**OpenAI Image Studio** — Small single-user Next.js tool for image generation/editing with a server-side provider boundary, local history and usage/cost reporting.
+
+Both projects are documented in more detail on [ArtifactHub](https://artifact-hub-xi.vercel.app/artifacts).
+
+---
+
+## Additional Systems & Prototypes
+
+- [TempoBlade](https://github.com/Baglare/TempoBlade) — Unity combat architecture, parry/deflect systems and data-driven roguelite progression.
+- [VoxForge](https://github.com/Baglare/VoxForge) — Local TTS, voice profiles, preprocessing and experimental fine-tuning/evaluation workflows.
+- [VisionForge](https://github.com/Baglare/VisionForge) — Local computer-vision interaction using face/hand detection, recognition and gesture-driven UI.
 
 ---
 
 ## Technical Focus / Teknik Odaklar
 
-- Unity gameplay systems: combat loops, parry/deflect logic, progression, feedback readability
-- Local-first applications: browser-first data models, import/export flows, optional sync
-- Audio and voice tools: beatmap generation, TTS experiments, voice profile preprocessing
-- Computer vision interaction: camera input, face/hand detection, gesture-based interfaces
-- Documentation discipline: scope, architecture, trade-offs, known limits, future work
+- Developer tooling and deterministic pipelines
+- AI systems, provider boundaries and controlled automation
+- Local-first application architecture and data integrity
+- Validation, QA and release engineering
+- Desktop application architecture
+- Unity gameplay and interaction systems
+- Localization engineering
+- Audio, TTS and computer vision experimentation
 
 ---
 
-## Current Direction / Güncel Yönelim
+## Engineering Approach / Çalışma Yaklaşımı
 
-I am shaping my GitHub, LinkedIn, and ArtifactHub presence around a clear software engineering portfolio: practical projects, readable documentation, controlled AI-assisted development, and honest technical scope.
+I prefer projects with explicit scope and system boundaries over feature accumulation.
 
-GitHub, LinkedIn ve ArtifactHub profilimi net bir yazılım mühendisliği portfolyosu etrafında düzenliyorum: pratik projeler, okunabilir dokümantasyon, kontrollü yapay zekâ destekli geliştirme ve abartısız teknik kapsam.
+I try to separate:
+
+- implemented behavior from planned work,
+- prototypes from release-ready systems,
+- deterministic logic from provider-dependent behavior,
+- public evidence from private or sensitive project data.
+
+The goal is to build software that I can explain technically: why the architecture exists, what trade-offs were made, what was validated, and what remains incomplete.
+
+Projelerde özellik sayısını artırmaktan çok kapsamı ve sistem sınırlarını net tutmayı tercih ediyorum.
+
+Uygulanmış özellikleri planlanan işlerden, prototipleri release seviyesindeki sistemlerden, deterministik mantığı provider bağımlı davranışlardan ve public kanıtı private proje verisinden ayırmaya çalışıyorum.
+
+Amaç yalnızca çalışan proje üretmek değil; mimarinin neden böyle kurulduğunu, hangi teknik kararların verildiğini, neyin doğrulandığını ve hangi sınırların hâlâ mevcut olduğunu açıklayabilmek.
