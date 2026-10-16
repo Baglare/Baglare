@@ -46,13 +46,13 @@ The main goal is to make AI-assisted development more reproducible and auditable
 
 ### [MediaTracker](https://github.com/Baglare/MediaTracker)
 
-A local-first media tracking application that evolved into a broader full-stack product.
+**Live v1:** [Try MediaTracker](https://mediatracker.baglare.com.tr) · [Technical case study](https://artifact-hub-xi.vercel.app/artifacts/media-tracker) · [Source](https://github.com/Baglare/MediaTracker)
 
-It includes structured media libraries, progress tracking, portable backup and recovery, optional cloud synchronization, social-profile foundations, deterministic recommendation logic and grounded research workflows.
+A deployed local-first full-stack product for tracking series, films, anime, manga, and books. Guest access works without an account; verified users can use controlled Cloud Sync, progress tracking, goals, release calendar, social features, and deterministic recommendations.
 
-The project became an exercise in product engineering as much as interface development, with particular attention to data integrity, authorization boundaries, provider policies and release preparation.
+The engineering focus is owner-scoped data integrity, PostgreSQL 18 row-level security, Better Auth sessions, revision/idempotency-based synchronization, and validated Linux/Passenger releases. Paid AI and several third-party content providers are deliberately disabled in production.
 
-**Focus:** Full-Stack Development · Local-First Architecture · Data Integrity · Product Engineering
+**Focus:** Full-Stack Development · Next.js · PostgreSQL · Local-First Architecture · Product Engineering
 
 ---
 
@@ -186,13 +186,13 @@ Temel amaç, AI destekli geliştirmeyi yalnızca serbest biçimli promptlara ve 
 
 ### [MediaTracker](https://github.com/Baglare/MediaTracker)
 
-Local-first bir medya takip uygulaması olarak başlayıp daha geniş bir full-stack ürüne dönüşen proje.
+**Canlı v1:** [MediaTracker'ı Dene](https://mediatracker.baglare.com.tr) · [Teknik Vaka Çalışması](https://artifact-hub-xi.vercel.app/artifacts/media-tracker) · [Kaynak Kod](https://github.com/Baglare/MediaTracker)
 
-Yapılandırılmış medya kütüphanesi, ilerleme takibi, portable backup ve recovery, opsiyonel cloud synchronization, sosyal profil temelleri, deterministik öneri mantığı ve grounded research iş akışları içeriyor.
+Dizi, film, anime, manga ve kitapların takibi için canlıya alınmış yerel öncelikli full-stack ürün. Misafir kullanımı hesapsız çalışır; doğrulanmış hesaplarla kontrollü Cloud Sync, ilerleme, hedefler, yayın takvimi, sosyal özellikler ve deterministik öneriler sunar.
 
-Proje zamanla arayüz geliştirmesinin yanında veri bütünlüğü, authorization sınırları, provider politikaları ve release hazırlığına odaklanan bir product engineering çalışmasına dönüştü.
+Mühendislik odağı; owner-scoped veri bütünlüğü, PostgreSQL 18 RLS, Better Auth oturumları, revision/idempotency temelli eşitleme ve doğrulanmış Linux/Passenger yayın akışıdır. Ücretli AI ve bazı harici içerik sağlayıcıları Production'da bilinçli olarak kapalıdır.
 
-**Odak:** Full-Stack Geliştirme · Local-First Mimari · Veri Bütünlüğü · Product Engineering
+**Odak:** Full-Stack Geliştirme · Next.js · PostgreSQL · Local-First Mimari · Ürün Mühendisliği
 
 ---
 
