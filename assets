@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Batuhan Parıltı</title>
+  <desc id="desc">Building systems, worlds, and intelligent tools. A dark engineering-themed banner with orbital paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c1323"/><stop offset="1" stop-color="#19142b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#6ee7e7"/><stop offset="1" stop-color="#b4a0ff"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#8175dc" stop-opacity=".23"/><stop offset="1" stop-color="#8175dc" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#9eaece" stroke-opacity=".07"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="280" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="280" fill="url(#bg)"/>
+    <rect width="1200" height="280" fill="url(#grid)"/>
+    <circle cx="965" cy="140" r="230" fill="url(#halo)"/>
+    <g transform="translate(970 140) rotate(-24)" fill="none">
+      <ellipse rx="204" ry="76" stroke="#5b718c" stroke-opacity=".55"/>
+      <ellipse rx="158" ry="57" stroke="#8d7cb8" stroke-opacity=".72"/>
+      <ellipse rx="112" ry="39" stroke="#69bdce" stroke-opacity=".62"/>
+      <ellipse rx="64" ry="23" stroke="#b4a0ff" stroke-opacity=".50"/>
+      <circle r="20" fill="#b4a0ff" fill-opacity=".13" stroke="#b4a0ff" stroke-width="1.5"/>
+      <path d="M-8 -8H8V8H-8Z M-8 0H8 M0 -8V8" stroke="#e5e1ff" stroke-width="1.5"/>
+      <g stroke="#0e1524" stroke-width="2"><circle cx="-204" cy="0" r="6" fill="#6ee7e7"/><circle cx="158" cy="0" r="7" fill="#b4a0ff"/><circle cx="0" cy="-57" r="4" fill="#d6ddff"/><circle cx="-112" cy="0" r="5" fill="#b4a0ff"/><circle cx="0" cy="39" r="5" fill="#6ee7e7"/><circle cx="0" cy="76" r="5" fill="#c5cde0"/></g>
+    </g>
+    <rect x="56" y="49" width="50" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="56" y="80" fill="#a5b7d2" font-family="monospace" font-size="15" letter-spacing="3">BAGLARE / ENGINEERING PORTFOLIO</text>
+    <text x="54" y="147" fill="#f2f5ff" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">Batuhan Parıltı</text>
+    <text x="57" y="191" fill="#cfdbed" font-family="Segoe UI, Arial, sans-serif" font-size="25">Building systems, worlds, and intelligent tools.</text>
+    <text x="57" y="237" fill="#8fb9c8" font-family="monospace" font-size="14" letter-spacing="1.4">SOFTWARE ENGINEERING  /  GAME SYSTEMS  /  AI</text>
+    <rect x=".5" y=".5" width="1199" height="279" rx="15.5" fill="none" stroke="#657399" stroke-opacity=".45"/>
+  </g>
+</svg>
